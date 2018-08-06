@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div>
         <Layout>
-          <Header transparent title="Bryan Albano" className='header'>
+          <Header transparent title="Bryan Albano Portfolio" className='header'>
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/about">About</Link>

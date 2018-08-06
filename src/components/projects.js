@@ -11,7 +11,7 @@ class Projects extends Component {
     toggleProjects() {
         if (this.state.activeTab === 0) {
             return (
-                <Card shadow={0} style={{width: '55%', margin: 'auto', text: 'center'}}>
+                <Card shadow={3} style={{width: '55%', margin: 'auto', text: 'center'}}>
                     <CardTitle style={{color: '#00008B', height: '350px', background: 'url(https://i.imgflip.com/2f9atw.jpg) top / cover' }}></CardTitle>
                     <CardText style={{textAlign: 'center'}}>
                     CERT Tracker certification tracking software offers a reliable solution that enables companies to assess their risk exposure and certification 
@@ -33,7 +33,7 @@ class Projects extends Component {
         }
         else if (this.state.activeTab === 1) {
             return (
-                <Card shadow={0} style={{width: '55%', margin: 'auto', text: 'center'}}>
+                <Card shadow={3} style={{width: '55%', margin: 'auto', text: 'center'}}>
                     <CardTitle style={{ color: '#fff', height: '350px', background: 'url(https://i.imgflip.com/2cf0rr.jpg) top / cover' }}></CardTitle>
                     <CardText style={{textAlign: 'center'}}>
                     Ohana is an app targetted for families that would like to organize family time/gathering events. 
@@ -56,7 +56,7 @@ class Projects extends Component {
         }
         else if (this.state.activeTab === 2) {
             return (
-                <Card shadow={0} style={{width: '55%', margin: 'auto', text: 'center'}}>
+                <Card shadow={3} style={{width: '55%', margin: 'auto', text: 'center'}}>
                     <CardTitle style={{ color: '#fff', height: '350px', background: 'url(http://via.placeholder.com/350x150) top / cover' }}>Project 3</CardTitle>
                     <CardText style={{textAlign: 'center'}}>
                     It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 
